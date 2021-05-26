@@ -4,18 +4,18 @@ function Header () {
             <header className="header">
                 <div className="container header-container">
                     <a className="logo-link" href="#">
-                        <img src="./img/logo.png" alt="Apartment Teraphy Logo" width="240"/>
+                        <img className="logo" src="./img/logo.png" alt="Apartment Teraphy Logo" width="240"/>
                     </a>
 
                     <div className="header-right">
-                        <a href="#">NEWSLETTERS</a>
-                        <a href="#"></a>
+                        <a className="header-news" href="#">NEWSLETTERS</a>
+                        <a className="room" href="#"></a>
                         <a className="profile-link" href="#">
                             <img src="./img/profile.webp" alt="Profile img" width="64"/>
                         </a>
-                        <label htmlFor="search">
-                        <input type="text" name="search" id="search"/>
-                        <img src="./img/search.png" alt="Search icon" width="32"/>
+                        <label className="search-label" htmlFor="search">
+                        <input className="search-input" type="text" name="search" id="search"/>
+                        <img src="./img/search.png" alt="Search icon" width="20"/>
                         </label>
                         
                     </div>
