@@ -540,7 +540,7 @@ img{
 }
 
 .articles {
-  padding: 50px 0;
+  padding: 50px 100px;
 }
 
 .articles-heading {
@@ -563,9 +563,33 @@ img{
   color: #111;
 }
 
+.articles-text-wrapper {
+  max-width: 550px;
+}
+
+.articles-title {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.articles-title::before {
+  display: block;
+  border-top: 1px solid #ccc;
+  height: 18px;
+  content: "";
+}
+
 .articles-desc {
   margin-top: 0;
   margin-bottom: 10px;
   color: #333;
+  font-size: 16px;
+}
+
+.hero-details {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #5b4746;
 }
 
