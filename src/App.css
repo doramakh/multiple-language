@@ -522,5 +522,20 @@ img{
 
 .hero-title {
   margin: 12px 0;
-  color: #333;
+  color: #222;
 }
+
+.hero-details {
+  color: #5a5a5a;
+}
+
+.hero-author {
+  margin-right: 9px;
+}
+
+.hero-author::after {
+  margin-left: 9px;
+  border-right: 1px solid  #5a5a5a;
+  content: "";
+}
+
