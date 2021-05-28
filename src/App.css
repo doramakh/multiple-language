@@ -500,3 +500,27 @@ img{
   text-decoration: none;
   color: #333;
 }
+
+.hero {
+  padding: 50px 0;
+}
+
+.article-link {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.hero-img {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.hero-category {
+  color: #f12330;
+}
+
+.hero-title {
+  margin: 12px 0;
+  color: #333;
+}
