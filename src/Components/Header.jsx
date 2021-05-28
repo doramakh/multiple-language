@@ -21,7 +21,31 @@ function Header () {
                     </div>
                 </div>
                 <nav className="nav">
-                    <div className="container"></div>
+                    <div className="container">
+                        <ul className="nav-list">
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">HOUSE TOURS</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">STYLE</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">HOW TO</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">ORGANIZE & CLEAN</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">LIVING</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">SHOP</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">MORE</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
             </header>
         </>
