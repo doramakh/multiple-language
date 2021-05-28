@@ -19,7 +19,7 @@ function Articles() {
                                         <span className="hero-time">May 23, 2021</span>
                                     </div>
                                 </div>
-                                <img src="" alt=""/>
+                                <img className="articles-img" src="./img/art-1.jpeg" alt="Harry Potter Book" width="500" />
                             </a>
                         </li>
                         <li className="articles-item">
@@ -36,7 +36,7 @@ function Articles() {
                                         <span className="hero-time">May 23, 2021</span>
                                     </div>
                                 </div>
-                                <img src="" alt=""/>
+                                <img className="articles-img" src="./img/art-2.jpeg" alt="People in front of laptop" width="500" />
                             </a>
                         </li>
                         <li className="articles-item">
@@ -53,7 +53,7 @@ function Articles() {
                                         <span className="hero-time">May 23, 2021</span>
                                     </div>
                                 </div>
-                                <img src="" alt=""/>
+                                <img className="articles-img" src="./img/art-3.jpeg" alt="Chess in the backyard" width="500" />
                             </a>
                         </li>
                     </ul>

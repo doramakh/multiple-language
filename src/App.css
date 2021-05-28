@@ -557,8 +557,12 @@ img{
   list-style-type: none;
 }
 
+.articles-item {
+  margin-bottom: 30px;
+}
+
 .articles-link {
-  display: block;
+  display: flex;
   text-decoration: none;
   color: #111;
 }
@@ -591,5 +595,10 @@ img{
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   color: #5b4746;
+}
+
+.articles-img {
+  display: block;
+  margin-left: 20px;
 }
 
