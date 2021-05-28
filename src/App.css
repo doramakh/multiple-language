@@ -602,3 +602,11 @@ img{
   margin-left: 20px;
 }
 
+.footer {
+  padding: 30px 100px;
+}
+
+.footer-logo {
+  width: 180px;
+  height: auto;
+}
