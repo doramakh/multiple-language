@@ -1,15 +1,20 @@
+import { useLang } from './../Context/LanguageContext'
+import translates from "./../translates"
+
 function Hero () {
+    const [lang] = useLang() 
+    
     return (
         <>
             <section className="hero">
                 <div className="container">
                     <a className="article-link" href="#">
                         <img className="hero-img" src="./img/hero-img.jpeg" alt="Article img"/>
-                        <span className="hero-category">TOURS</span>
-                        <h2 className="hero-title">9 Things You Learn Living in a Tiny Studio Apartment</h2>
+                        <span className="hero-category">{translates[lang].heroArticleType}</span>
+                        <h2 className="hero-title">{translates[lang].heroArticleTitle}</h2>
                         <div className="hero-details">
-                            <span className="hero-author">by Adrienne Breaux</span>
-                            <span className="hero-time">Yesterday</span>
+                            <span className="hero-author">{translates[lang].heroArticleAuthor}</span>
+                            <span className="hero-time">{translates[lang].heroArticleDate}</span>
                         </div>
                     </a>
                 </div>
