@@ -9,10 +9,10 @@ function Articles() {
         <>
             <section className="articles">
                 <div className="container">
-                    <h2 className="articles-heading">More Latest</h2>
+                    <h2 className="articles-heading">{translates[lang].articleHeading}</h2>
                     <ul className="articles-list">
                         <li className="articles-item">
-                            <a className="articles-link" href="#">
+                            <a className="articles-link" href="/">
                                 <div className="articles-text-wrapper">
                                     <h3 className="articles-title">{translates[lang].articleOneTitle}</h3>
                                     <p className="articles-desc">{translates[lang].articleOneDesc}</p>
@@ -25,7 +25,7 @@ function Articles() {
                             </a>
                         </li>
                         <li className="articles-item">
-                            <a className="articles-link" href="#">
+                            <a className="articles-link" href="/">
                                 <div className="articles-text-wrapper">
                                     <h3 className="articles-title">{translates[lang].articleTwoTitle}</h3>
                                     <p className="articles-desc">{translates[lang].articleTwoDesc}</p>
@@ -38,7 +38,7 @@ function Articles() {
                             </a>
                         </li>
                         <li className="articles-item">
-                            <a className="articles-link" href="#">
+                            <a className="articles-link" href="/">
                                 <div className="articles-text-wrapper">
                                     <h3 className="articles-title">{translates[lang].articleThreeTitle}</h3>
                                     <p className="articles-desc">{translates[lang].articleThreeDesc}</p>

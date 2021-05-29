@@ -8,7 +8,7 @@ function Hero () {
         <>
             <section className="hero">
                 <div className="container">
-                    <a className="article-link" href="#">
+                    <a className="article-link" href="/">
                         <img className="hero-img" src="./img/hero-img.jpeg" alt="Article img"/>
                         <span className="hero-category">{translates[lang].heroArticleType}</span>
                         <h2 className="hero-title">{translates[lang].heroArticleTitle}</h2>
