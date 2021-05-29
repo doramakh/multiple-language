@@ -1,4 +1,10 @@
+import { useLang } from './../Context/LanguageContext'
+import translates from "./../translates"
+
 function Articles() {
+
+    const [lang] = useLang()
+
     return (
         <>
             <section className="articles">
@@ -8,15 +14,11 @@ function Articles() {
                         <li className="articles-item">
                             <a className="articles-link" href="#">
                                 <div className="articles-text-wrapper">
-                                    <h3 className="articles-title">
-                                    An Architect Redesigned the Harry Potter Book Covers to Feature Modernist Designs
-                                    </h3>
-                                    <p className="articles-desc">
-                                    When the Italian publishing house Salani commissioned architect Michele De Lucchi and his AMDL CIRCLE studio to redesign the Italian versions of the iconic book covers of the “Harry Potter” series, De Lucchi did what he does best and focused his attention on reimagining the fantastical buildings of the wizarding world in a contemporary style.
-                                    </p>
+                                    <h3 className="articles-title">{translates[lang].articleOneTitle}</h3>
+                                    <p className="articles-desc">{translates[lang].articleOneDesc}</p>
                                     <div className="hero-details">
-                                        <span className="hero-author">by Olivia Harvey</span>
-                                        <span className="hero-time">May 23, 2021</span>
+                                        <span className="hero-author">{translates[lang].articleOneAuthor}</span>
+                                        <span className="hero-time">{translates[lang].articleOneDate}</span>
                                     </div>
                                 </div>
                                 <img className="articles-img" src="./img/art-1.jpeg" alt="Harry Potter Book" width="500" />
@@ -25,15 +27,11 @@ function Articles() {
                         <li className="articles-item">
                             <a className="articles-link" href="#">
                                 <div className="articles-text-wrapper">
-                                    <h3 className="articles-title">
-                                    An Architect Redesigned the Harry Potter Book Covers to Feature Modernist Designs
-                                    </h3>
-                                    <p className="articles-desc">
-                                    When the Italian publishing house Salani commissioned architect Michele De Lucchi and his AMDL CIRCLE studio to redesign the Italian versions of the iconic book covers of the “Harry Potter” series, De Lucchi did what he does best and focused his attention on reimagining the fantastical buildings of the wizarding world in a contemporary style.
-                                    </p>
+                                    <h3 className="articles-title">{translates[lang].articleTwoTitle}</h3>
+                                    <p className="articles-desc">{translates[lang].articleTwoDesc}</p>
                                     <div className="hero-details">
-                                        <span className="hero-author">by Olivia Harvey</span>
-                                        <span className="hero-time">May 23, 2021</span>
+                                        <span className="hero-author">{translates[lang].articleTwoAuthor}</span>
+                                        <span className="hero-time">{translates[lang].articleTwoDate}</span>
                                     </div>
                                 </div>
                                 <img className="articles-img" src="./img/art-2.jpeg" alt="People in front of laptop" width="500" />
@@ -42,15 +40,11 @@ function Articles() {
                         <li className="articles-item">
                             <a className="articles-link" href="#">
                                 <div className="articles-text-wrapper">
-                                    <h3 className="articles-title">
-                                    An Architect Redesigned the Harry Potter Book Covers to Feature Modernist Designs
-                                    </h3>
-                                    <p className="articles-desc">
-                                    When the Italian publishing house Salani commissioned architect Michele De Lucchi and his AMDL CIRCLE studio to redesign the Italian versions of the iconic book covers of the “Harry Potter” series, De Lucchi did what he does best and focused his attention on reimagining the fantastical buildings of the wizarding world in a contemporary style.
-                                    </p>
+                                    <h3 className="articles-title">{translates[lang].articleThreeTitle}</h3>
+                                    <p className="articles-desc">{translates[lang].articleThreeDesc}</p>
                                     <div className="hero-details">
-                                        <span className="hero-author">by Olivia Harvey</span>
-                                        <span className="hero-time">May 23, 2021</span>
+                                        <span className="hero-author">{translates[lang].articleThreeAuthor}</span>
+                                        <span className="hero-time">{translates[lang].articleThreeDate}</span>
                                     </div>
                                 </div>
                                 <img className="articles-img" src="./img/art-3.jpeg" alt="Chess in the backyard" width="500" />
