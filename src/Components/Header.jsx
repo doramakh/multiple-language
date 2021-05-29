@@ -8,6 +8,11 @@ function Header () {
                     </a>
 
                     <div className="header-right">
+                        <select className="lang-select" name="lang" id="lang">
+                            <option className="lang-option" value="en">English</option>
+                            <option className="lang-option" value="ru">Russian</option>
+                            <option className="lang-option" value="uz">Uzbek</option>
+                        </select>
                         <a className="header-news" href="#">NEWSLETTERS</a>
                         <a className="room" href="#"></a>
                         <a className="profile-link" href="#">

@@ -416,7 +416,7 @@ img{
 .header-right {
   display: flex;
   align-items: center;
-  max-width: 500px;
+  max-width: 550px;
   justify-content: space-between;
 }
 
@@ -452,6 +452,17 @@ img{
   margin-right: 15px;
   border-radius: 50%;
   border: 2px solid #000000;
+}
+
+.lang-select {
+  display: block;margin-right: 15px;
+  font-size: 14px;
+  color: #00003a;
+  border: 1px dashed #f12330;
+}
+
+.lang-select:focus {
+  outline: 0;
 }
 
 .search-label {
@@ -563,6 +574,7 @@ img{
 
 .articles-link {
   display: flex;
+  align-items: flex-start;
   text-decoration: none;
   color: #111;
 }
@@ -604,9 +616,73 @@ img{
 
 .footer {
   padding: 30px 100px;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer::before {
+  display: block;
+  border-top: 1px solid #ccc;
+  height: 18px;
+  content: "";
+}
+
+.footer-container {
+  display: flex;
 }
 
 .footer-logo {
-  width: 180px;
+  width: 150px;
   height: auto;
+  margin-bottom: 30px;
+}
+
+.quick-links {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+}
+
+.footer-tip {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.read-links {
+  margin-right: 150px;
+}
+
+.footer-tip-link {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #111;
+  border: 1px solid #111;
+}
+
+.copyright {
+  margin-top: auto;
+  font-size: 14px;
+}
+
+.footer-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 12px;
+  border-bottom: 1px solid #111;
+}
+
+.footer-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+} 
+
+.footer-link {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  color: #111;
 }
